@@ -1,0 +1,19 @@
+{
+  "name": "langchain-webscraper",
+  "version": "1.0.0",
+  "description": "AI Chatbot ingestion and query logic using LangChain and Supabase",
+  "main": "ingest.js",
+  "scripts": {
+    "ingest": "node ingest.js",
+    "query": "node query.js"
+  },
+  "dependencies": {
+    "langchain": "^0.1.0",
+    "@langchain/openai": "^0.0.12",
+    "@langchain/community": "^0.0.19",
+    "@supabase/supabase-js": "^2.39.3",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.1",
+    "pdf-parse": "^1.1.1"
+  }
+}
